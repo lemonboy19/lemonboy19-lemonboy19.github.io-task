@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Dancing+Script:wght@600&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Dancing+Script:wght@600&family=Lobster&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Dancing+Script:wght@600&family=Grape+Nuts&family=Lobster&family=Roboto+Slab:wght@100&display=swap');
+
+#video {
+  position: absolute;
+  top: 8em;
+  right: 5em;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.break {
+    border-left: 6px solid black;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.5rem 1.5rem;
+    
+}
+
+a, button {
+    color: gray;
+}
+
+.image {
+    margin-right: auto;
+}
+
+.logo {
+    height: 4.0rem;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    transition: all 0.5s ease-in-out;
+    padding: 5px 0;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-links li a:hover {
+    color: rgba(0, 173, 181, 0.8);
+    transform: scaleX(1);
+  
+  }
+
+  button {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    
+  }
+
+#GH {
+    margin-left: 1.5cm;
+}
+    
+
+
+  button:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color:  #fd4766;
+    cursor: pointer;
+  }
+  
+
+  #title {
+      font-size: 21px;
+      margin-left: 1.5cm;
+      letter-spacing: 0.2cm;
+    background: -webkit-linear-gradient(bottom, rgb(15, 230, 122), blue, red, rgb(97, 56, 87));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+  }
+
+  #heading1 {
+    font-family: 'Arvo', serif;
+      color: black;
+      font-weight: bolder;
+      margin-left: 1.5cm;
+      font-size: 50px;
+     
+
+  }
+
+  #span-1 {
+      font-family: 'Arvo', serif;
+      color: #fd4766;
+      margin-left: 1.5cm;
+      font-weight: bolder;
+      font-size: 50px;
+  }
+
+  p {
+    font-family: 'Roboto Slab', serif;
+      letter-spacing: 0.02cm;
+      margin-left: 1.5cm;
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .dark-mode {
+    background-color: black;
+   
+  }
+
+  .email {
+      width: 50px;
+      height: 50px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      margin-left: 1.5cm;
+  }
+      
+  
+
+  .contacts ul li a{
+      font-size: 20px;
+      position: relative;
+  }
+
+  .blockquote {
+    max-width: 600px;
+    margin: 10px 30px;
+    padding: 25px;
+    background:#f8fffe ;
+    border: 1px solid #b0d2cb;
+    color: #0b4237;
+    box-sizing: border-box;
+    
+
+  }
+
+  .blockquote--bordered {
+    border-left-width: 10px;
+  }
+
+  .blockquote__text {
+    font-family: 'Grape Nuts', cursive, serif;
+    font-style: italic;
+    font-size: 2em;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .blockquote__text--credit {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    font-family: 'Roboto Slab', serif;
+  }
+
+
+ 
